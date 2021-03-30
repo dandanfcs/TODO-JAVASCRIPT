@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(62, 209, 235);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.panel{
+    min-width: 500px;
+    height: 70vh;
+    background-color: white;
+    box-shadow: 3px 3px 3px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formPanel h1{
+    text-align: center;
+}
+
+.formPanel input{
+  min-width: 400px;
+  padding: 10px;
+  border-color: lightgray;
+}
+.formPanel button{
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    color: white;
+    border: none;
+}
+.formPanel button:focus{
+    border: none;
+}
+.inputGroup{
+    display: flex;
+    align-items: center;
+}
+.panelList{
+    margin-top: 10px;
+}
+.panelList ul{
+    list-style: none;
+    overflow-y: scroll;
+    max-height: 256px;
+}
+.panelList ul li{
+    width: 451px;
+    background-color: #e2e2e2;
+    padding: 10px;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: -53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
