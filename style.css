@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body{
-    background-color: rgb(62, 209, 235);
+
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to bottom, #415c84, #37aeca);
 }
 
 section{
@@ -12,19 +17,23 @@ section{
     min-width: 500px;
     height: 70vh;
     background-color: white;
-    box-shadow: 3px 3px 3px gray;
+    box-shadow: 7px 8px 8px  #464343;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 13px;
 }
 .formPanel h1{
     text-align: center;
+    font-family: 'Dela Gothic One', cursive;
 }
 
 .formPanel input{
-  min-width: 400px;
-  padding: 10px;
-  border-color: lightgray;
+    min-width: 390px;
+    padding: 10px;
+    border-color: lightgray;
+    border-radius: 8px;
+    margin-left: -10px;
 }
 .formPanel button{
     background-color: rgb(255, 255, 255);
@@ -41,20 +50,25 @@ section{
 }
 .panelList{
     margin-top: 10px;
+    width: 96%
 }
 .panelList ul{
     list-style: none;
-    overflow-y: scroll;
-    max-height: 256px;
+    max-height: 270px;
+    overflow: auto;
+    
 }
 .panelList ul li{
-    width: 451px;
+    width: 99%;
     background-color: #e2e2e2;
     padding: 10px;
     text-align: left;
-    margin-top: 5px;
-    margin-left: -53px;
+    margin-top: 9px;
+    margin-left: -43px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #968a8a;
 }

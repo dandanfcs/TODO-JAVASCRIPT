@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,32 +9,23 @@
 </head>
 <body>
     
-
 <section>
-
     <div class="panel">
          <div class="formPanel">
-            <h1>TODO APP</h1>           
+           <h1>TODO APP</h1>           
                <div class="inputGroup">
-                <input type="text" id="addList" placeholder="Adicionar tarefa">
-                 <button id="btnAdd"> <img src="add.png" alt="" srcset=""></button>
+                  <input type="text" id="addList" placeholder="Adicionar tarefa">
+                  <button id="btnAdd"> <img src="./src/add.png" alt="" srcset=""></button>
                </div>
-            
          </div>
-
 
          <div class="panelList">
-             <ul id="Lista">
-                 <li>Javascript <span> <img src="remove.png" alt=""></span></li>
-                 <li>Javascript <span> <img src="remove.png" alt=""></li>
-                 <li>Javascript <span> <img src="remove.png" alt=""></li>
-             </ul>
+               <!-- lista onde será injetado o HTML via JS-->
+             <ul id="Lista"> </ul>
          </div>
-
     </div>
 
 </section>
-
 
 <script src="todo.js"></script>
 </body>
