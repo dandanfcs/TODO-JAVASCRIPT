@@ -1,4 +1,3 @@
 # TODO JAVASCRIPT
  Lista de tarefas em JavaScript (TODO)
- (em fase de desenvolvimento)
- ![todo](https://user-images.githubusercontent.com/58483382/112922162-649dbd80-90e2-11eb-91fc-a333209b95e0.png)
+ ![todoJS](https://user-images.githubusercontent.com/58483382/113711651-98b54780-96bb-11eb-8a32-f22079dde379.png)
