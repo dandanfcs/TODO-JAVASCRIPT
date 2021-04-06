@@ -72,3 +72,20 @@ section{
     border-radius: 8px;
     box-shadow: 2px 2px 2px #968a8a;
 }
+
+
+@media(max-width: 600px){
+    .formPanel input{
+        min-width: 202px;
+
+    }
+    .panel{
+        min-width: 299px;
+        min-height: 70vh;
+        height: auto;
+    }
+    .panelList ul{
+        max-height: auto;
+        height: auto;
+    }
+}
